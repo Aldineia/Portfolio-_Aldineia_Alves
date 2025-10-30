@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aldinéia Alves - Engenheira de Software</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    
+    <header id="inicio">
+        <nav class="container">
+            <a href="#inicio" class="logo">Aldinéia Alves</a>
+            <ul class="nav-links">
+                <li><a href="#inicio" title="Ir para o topo da página">Início</a></li>
+                <li><a href="#sobre" title="Ver informações sobre mim">Sobre</a></li>
+                <li><a href="#habilidades" title="Ver minha lista de habilidades técnicas">Habilidades</a></li>
+                <li><a href="#projetos" title="Ver meus projetos recentes">Projetos</a></li>
+                <li><a href="#formacao" title="Ver minha formação e certificações">Formação</a></li>
+                <li><a href="#contato" class="btn-contato" title="Entrar em contato por e-mail">Contato</a></li>
+            </ul>
+            <div class="menu-toggle" aria-label="Alternar Menu de Navegação">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+    
+    <section id="hero" class="hero-section container">
+        <div class="hero-content">
+            <div class="inline-flex items-center gap-2 bg-[#1a1c1b]/50 border border-[#4a90e2]/30 rounded-full px-4 py-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin text-[#4a90e2]" aria-hidden="true">
+                    <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span class="location">Manaus, AM</span>
+            </div>
+            <h1>Aldinéia Alves</h1>
+            <h2>Engenheira de Software</h2>
+            <p>
+                Engenheira de Software em formação com foco em Programação Orientada a Objetos (Java), <span title="UML: Linguagem Unificada de Modelagem, essencial para projetar sistemas de software.">Modelagem de Sistemas (UML)</span> e Desenvolvimento de Banco de Dados. Busco aplicar <span title="Metodologias Ágeis como Scrum e Kanban, usadas para entrega rápida e flexível de software.">metodologias ágeis</span> e conhecimentos em <span title="CloudSim: Ferramenta de simulação para análise de desempenho e alocação de recursos em ambientes de nuvem.">Computação em Nuvem</span> e <span title="NoSQL: Bancos de dados não relacionais (MongoDB) para alta escalabilidade e flexibilidade de dados.">NoSQL</span> para construir soluções robustas e escaláveis, utilizando uma base sólida em análise de dados e arquitetura de sistemas.
+            </p>
+            <div class="hero-actions">
+                <a href="#contato" class="btn primary-btn" title="Enviar uma mensagem por e-mail">Entre em Contato →</a>
+                <a href="https://www.linkedin.com/in/aldineia-alves-engenheira-software" target="_blank" class="btn secondary-btn" title="Abrir meu perfil do LinkedIn">LinkedIn</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="/imagens/imagem.png" alt="Aldinéia Alves, Engenheira de Software. Imagem de perfil profissional.">
+        </div>
+    </section>
+
+    <section id="sobre" class="about-section">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <div class="about-grid">
+                <div class="hero-image">
+                    <img src="/imagens/photo.png" alt="Imagem conceitual de trabalho: diagramas de software e código.">
+                </div>
+                <div class="about-details">
+                    <h3>Engenheira de Software em Formação e Modelagem de Sistemas</h3>
+                    <p>
+                        Sou estudante de Engenharia de Software na Universidade Anhanguera-Uniderp. Minha base técnica concentra-se em todo o ciclo de vida do desenvolvimento, com ênfase na Análise de Requisitos, Modelagem UML e Análise Orientada a Objetos. Tenho experiência na implementação de soluções robustas em Java e Python e foco no desenvolvimento de sistemas com alta escalabilidade.
+                    </p>
+                    <p>
+                        Práticas realizadas em MongoDB (criação e manipulação de bancos orientados a documentos) e CloudSim (simulação de alocação de recursos em nuvem) reforçaram minha capacidade de gerenciar dados complexos e otimizar a arquitetura de sistemas. Meu trabalho inclui o uso de ferramentas como Visual Paradigm para modelagem e MySQL Workbench para programação SQL.
+                    </p>
+                    <div class="expertise-cards">
+                        <div class="card">
+                            <h4>Desenvolvimento POO</h4>
+                            <p>Experiência sólida em Java aplicando herança, polimorfismo, encapsulamento e abstração.</p>
+                        </div>
+                        <div class="card">
+                            <h4>Modelagem & AOO</h4>
+                            <p>Especialista em UML e Diagramas de Classe/Caso de Uso para projeto de sistemas.</p>
+                        </div>
+                        <div class="card">
+                            <h4>Banco de Dados</h4>
+                            <p>Conhecimento em SQL e MongoDB para diferentes necessidades de modelagem.</p>
+                        </div>
+                        <div class="card">
+                            <h4>IA e Simulação</h4>
+                            <p>Fundamentos de Redes Neurais (classificação binária) e CloudSim para análise de nuvem.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades" class="skills-section">
+        <div class="container">
+            <h2>Minhas Habilidades</h2>
+            <p class="section-subtitle" style="text-align: center; color: var(--text-secondary); margin-bottom: 50px;">
+                Tecnologias, ferramentas e metodologias que domino através da formação e prática.
+            </p>
+
+            <div class="skills-grid">
+                
+                <div class="skills-column">
+                    <h3> Linguagens & POO</h3>
+                    
+                    <div class="skill-item">
+                        <span>Java (Programação Orientada a Objetos - Herança, Polimorfismo)</span>
+                        <div class="progress-bar"><div style="width: 80%;">80%</div></div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <span>Python (Lógica, Cálculos Condicionais, Fundamentos de IA)</span>
+                        <div class="progress-bar"><div style="width: 75%;">75%</div></div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <span>HTML & CSS (Web Design Responsivo)</span>
+                        <div class="progress-bar"><div style="width: 85%;">85%</div></div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <span>JavaScript (Básico/DOM)</span>
+                        <div class="progress-bar"><div style="width: 65%;">65%</div></div>
+                    </div>
+                </div>
+
+                <div class="skills-column">
+                    <h3> Banco de Dados & Ferramentas</h3>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> SQL (Criação de Estrutura, Inserção, Consultas, Visões)</li>
+                        <li><i class="fas fa-check-circle"></i> MongoDB (NoSQL, Orientado a Documentos)</li>
+                        <li><i class="fas fa-check-circle"></i> Modelagem de Dados (E-R com MySQL Workbench)</li>
+                        <li><i class="fas fa-check-circle"></i> Git & GitHub (Controle de Versão)</li>
+                        <li><i class="fas fa-check-circle"></i> MySQL Workbench (Modelagem e SQL)</li>
+                        <li><i class="fas fa-check-circle"></i> Visual Paradigm (UML e Diagrama de Blocos)</li>
+                    </ul>
+                </div>
+
+                <div class="skills-column">
+                    <h3> Engenharia & Metodologias</h3>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> UML (Diagramas de Classe e Caso de Uso)</li>
+                        <li><i class="fas fa-check-circle"></i> Análise Orientada a Objetos (AOO)</li>
+                        <li><i class="fas fa-check-circle"></i> CloudSim (Simulação de Ambiente de Nuvem)</li>
+                        <li><i class="fas fa-check-circle"></i> Lógica de Programação (Diagrama de Blocos)</li>
+                        <li><i class="fas fa-check-circle"></i> Fundamentos de Redes Neurais (IA)</li>
+                        <li><i class="fas fa-check-circle"></i> Análise de Requisitos e Metodologias Ágeis (Scrum)</li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <section id="projetos" class="projects-section">
+        <div class="container">
+            <h2>Meus Projetos</h2>
+            <p class="section-subtitle" style="text-align: center; color: var(--text-secondary); margin-bottom: 50px;">
+                Trabalhos práticos detalhados que demonstram minhas competências em Engenharia de Software.
+            </p>
+
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <img src="/imagens/sistemabancario.png" alt="Diagrama de Caso de Uso UML para Sistema Bancário">
+                    <div style="padding: 0 20px;">
+                        <h4> Modelagem UML: Sistema Bancário</h4>
+                        <p>
+                            Desenvolvimento da análise de requisitos e modelagem de um Diagrama de Caso de Uso completo para um sistema bancário, utilizando o Visual Paradigm. Focado na identificação de atores e funcionalidades essenciais (saque, depósito, abertura/encerramento de conta).
+                        </p>
+                        <div class="tags">
+                            <span>UML</span>
+                            <span>Análise de Requisitos</span>
+                            <span>Visual Paradigm</span>
+                            <span>Modelagem de Sistemas</span>
+                        </div>
+                        <a href="URL_DO_PROJETO_1_GITHUB" target="_blank" class="details-link">Ver Documentação ↗</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="/imagens//mongodb.jpg" alt="Interface de gerenciamento de Banco de Dados MongoDB Compass">
+                    <div style="padding: 0 20px;">
+                        <h4> Modelagem e Manipulação NoSQL (MongoDB)</h4>
+                        <p>
+                            Criação e manipulação de um banco de dados orientado a documentos (`lojadb`) utilizando MongoDB e o cliente Compass. O projeto evidenciou a flexibilidade e escalabilidade do modelo NoSQL para dados heterogêneos.
+                        </p>
+                        <div class="tags">
+                            <span>MongoDB</span>
+                            <span>NoSQL</span>
+                            <span>Banco de Documentos</span>
+                            <span>MongoDB Compass</span>
+                        </div>
+                        <a href="URL_DO_PROJETO_2_GITHUB" target="_blank" class="details-link">Ver Detalhes/Relatório ↗</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="/imagens/sql.png" alt="Estrutura de tabelas e consultas SQL no MySQL Workbench">
+                    <div style="padding: 0 20px;">
+                        <h4> Programação e Desenvolvimento SQL</h4>
+                        <p>
+                            Criação e manipulação completa de um banco de dados relacional (tabelas, inserção de dados, consultas e Visões) utilizando MySQL Workbench e comandos SQL eficientes, garantindo a integridade dos dados.
+                        </p>
+                        <div class="tags">
+                            <span>SQL</span>
+                            <span>MySQL Workbench</span>
+                            <span>Consultas Avançadas</span>
+                            <span>Programação de BD</span>
+                        </div>
+                        <a href="URL_DO_PROJETO_3_GITHUB" target="_blank" class="details-link">Ver Código SQL ↗</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <img src="/imagens/python.png" alt="Gráfico de treinamento de rede neural para classificação binária">
+                    <div style="padding: 0 20px;">
+                        <h4> Fundamentos de IA: Rede Neural em Python</h4>
+                        <p>
+                            Implementação de uma rede neural de uma camada em Python, utilizando a função sigmoide, para a tarefa de classificação binária (lógica AND). Foco no treinamento supervisionado e ajuste de pesos para aprendizado de padrões.
+                        </p>
+                        <div class="tags">
+                            <span>Python</span>
+                            <span>Inteligência Artificial</span>
+                            <span>Rede Neural</span>
+                            <span>Classificação Binária</span>
+                        </div>
+                        <a href="URL_DO_PROJETO_4_GITHUB" target="_blank" class="details-link">Ver Código/Relatório ↗</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="/imagens/nuvem.png" alt="Simulação de alocação de recursos CloudSim em Java">
+                    <div style="padding: 0 20px;">
+                        <h4> Simulação de Gerenciamento em Nuvem (CloudSim)</h4>
+                        <p>
+                            Instalação e execução de um ambiente de simulação em Java (NetBeans) utilizando a plataforma CloudSim. Demonstra a capacidade de análise de desempenho e tomada de decisão na alocação de recursos em nuvem.
+                        </p>
+                        <div class="tags">
+                            <span>CloudSim</span>
+                            <span>Computação em Nuvem</span>
+                            <span>Java</span>
+                            <span>Simulação</span>
+                        </div>
+                        <a href="URL_DO_PROJETO_5_GITHUB" target="_blank" class="details-link">Ver Relatório/Simulação ↗</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <img src="/imagens/DIAGRAMA.png" alt="Diagrama Entidade-Relacionamento e Diagrama de Classes UML lado a lado.">
+                    <div style="padding: 0 20px;">
+                        <h4> Modelagem de Sistemas (DER e Diagramas de Classe)</h4>
+                        <p>
+                            Aplicação de Análise Orientada a Objetos (AOO) para criar um Diagrama de Classes (Locação de Automóveis) e de Modelagem de Dados para desenvolver um DER (Sistema de Empréstimo de Livros), utilizando Visual Paradigm e MySQL Workbench.
+                        </p>
+                        <div class="tags">
+                            <span>Modelagem de Dados</span>
+                            <span>AOO</span>
+                            <span>DER</span>
+                            <span>Diagrama de Classes</span>
+                        </div>
+                        <a href="URL_DO_PROJETO_6_GITHUB" target="_blank" class="details-link">Ver Documentação ↗</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="formacao" class="education-section">
+        <div class="container">
+            <h2>Formação & Certificações</h2>
+            <p class="section-subtitle" style="text-align: center; color: var(--text-secondary); margin-bottom: 50px;">
+                Minha trajetória acadêmica e cursos complementares
+            </p>
+
+            <div class="education-grid">
+                <div class="academic-box">
+                    <h3>Formação Acadêmica</h3>
+                    <p>Em andamento</p>
+                    <h4>Bacharelado em Engenharia de Software</h4>
+                    <p class="institution">Universidade Anhanguera-Uniderp</p>
+                    <p class="description">Formação focada no ciclo de vida do desenvolvimento de software, com base sólida em Lógica e Matemática Computacional, Programação Orientada a Objetos (Java) e Análise e Modelagem de Sistemas.</p>
+                </div>
+
+                <div class="certifications-box">
+                    <h3>Certificações</h3>
+                    <div class="certification-item">
+                        <h4>Programador Web</h4>
+                        <p class="institution">Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul</p>
+                        <span class="year">2025</span>
+                    </div>
+                    <div class="certification-item">
+                        <h4>Porgramação Básica com Java</h4>
+                        <p class="institution">Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Sul</p>
+                        <span class="year">2025</span>
+                    </div>
+                    <div class="ceretification-item">
+                        <h4>Linguagem de Programação Python Básico</h4>
+                        <p class="institution">Fundação Bradesco</p>
+                    </div>
+                    <div class="certification-item">
+                        <h4>Desenvolvimento Orientado a Objetos Utilizando a Linguagem Python</h4>
+                        <p class="institution">Fundação Bradesco</p>
+                        <span class="year">2024</span>
+                    </div>
+                    <div class="certification-item">
+                        <h4>Fundamentos de Lógica de Programação</h4>
+                        <p class="institution">Fundação Bradesco</p>
+                        <span class="year">2024</span>
+                    </div>
+                    <div class="certification-item">
+                        <h4>Introdução à Progamação Orientada a Objetos</h4>
+                        <p class="institution">Fundação Bradesco</p>
+                        <span class="year">2024</span>
+                    </div>
+                    <div class="certification-item">
+                        <h4>Excel</h4>
+                        <p class="institution">Santanter Open Academy</p>
+                        <span class="year">2025</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact-section">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <p class="section-subtitle" style="text-align: center; color: var(--text-secondary); margin-bottom: 50px;">
+                Interessado em discutir oportunidades ou projetos? Envie uma mensagem!
+            </p>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Informações de Contato</h3>
+                    <p>Estou sempre aberta a novas oportunidades e conexões profissionais. Sinta-se à vontade para entrar em contato!</p>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:aldineia.alves.engenheira@gmail.com" title="Enviar e-mail">aldineia.alves.engenheira@gmail.com</a>
+                    </div>
+                    <div class="info-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/aldineia-alves-engenheira-software" target="_blank" title="Abrir perfil do LinkedIn">linkedin.com/in/aldineia-alves-engenheira-software</a>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Manaus, AM</span>
+                    </div>
+                </div>
+
+                <form class="contact-form" action="SUA_URL_DO_FORMSPREE_OU_SIMILAR" method="POST">
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="_replyto" placeholder="seu.email@exemplo.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="6" placeholder="Sua mensagem..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Enviar Mensagem <i class="fas fa-paper-plane"></i></button>
+                    <input type="text" name="_gotcha" style="display:none">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <p class="name">Aldinéia Alves</p>
+                <p class="title">Engenheira de Software</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Links Rápidos</h4>
+                <ul>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-social">
+                <h4>Redes Sociais</h4>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/aldineia-alves-engenheira-software" target="_blank" class="icon-box" aria-label="LinkedIn de Aldinéia Alves"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:aldineia.alves.engenheira@gmail.com" class="icon-box" aria-label="E-mail de Aldinéia Alves"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2025 Aldinéia Alves. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script> 
+</body>
+</html>
