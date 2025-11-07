@@ -1,7 +1,7 @@
 // Objeto de tradução (dados textuais para PT e EN)
 const translations = {
     pt: {
-        pageTitle: "Aldinéia Alves | Desenvolvedora Web",
+        pageTitle: "Aldinéia Alves | Engenheira de Software",
         // Navegação
         navInicio: "Início",
         navSobre: "Sobre Mim",
@@ -11,8 +11,8 @@ const translations = {
         navContato: "Contato",
         // Hero Section
         heroLocation: "Manaus, AM",
-        heroGreeting: "Olá, eu sou Aldinéia Alves",
-        heroTitle: "Desenvolvedora Web & Engenheira de Software em Formação.",
+        heroGreeting: "Aldinéia Alves",
+        heroTitle: "Engenheira de Software em Formação.",
         heroDescription: "Apaixonada por tecnologia, focada em construir soluções digitais robustas e eficientes. Minha jornada envolve desenvolvimento Web (HTML, CSS, JS) e Java, sempre buscando aprender e aplicar as melhores práticas de Engenharia de Software.",
         heroBtnProjects: "Ver Projetos",
         heroBtnResume: "Baixar Currículo",
@@ -70,12 +70,12 @@ const translations = {
         formLabelMessage: "Mensagem",
         formBtnSubmit: "Enviar Mensagem",
         // Footer
-        footerTitle: "Desenvolvedora Web & Engenheira de Software",
+        footerTitle: "Engenheira de Software",
         footerSocialTitle: "Redes Sociais",
         footerCopyright: "© 2025 Aldinéia Alves. Todos os direitos reservados.",
     },
     en: {
-        pageTitle: "Aldinéia Alves | Web Developer",
+        pageTitle: "Aldinéia Alves | Engenheira de Software",
         // Navigation
         navInicio: "Home",
         navSobre: "About Me",
@@ -86,7 +86,7 @@ const translations = {
         // Hero Section
         heroLocation: "Manaus, AM",
         heroGreeting: "Hello, I'm Aldinéia Alves",
-        heroTitle: "Web Developer & Software Engineer in Training.",
+        heroTitle: "Software Engineer in Training.",
         heroDescription: "Passionate about technology, focused on building robust and efficient digital solutions. My journey involves Web development (HTML, CSS, JS) and Java, always seeking to learn and apply the best practices of Software Engineering.",
         heroBtnProjects: "View Projects",
         heroBtnResume: "Download Resume",
@@ -144,7 +144,7 @@ const translations = {
         formLabelMessage: "Message",
         formBtnSubmit: "Send Message",
         // Footer
-        footerTitle: "Web Developer & Software Engineer",
+        footerTitle: "Software Engineer",
         footerSocialTitle: "Social Media",
         footerCopyright: "© 2025 Aldinéia Alves. All rights reserved.",
     }
@@ -175,7 +175,7 @@ function setLanguage(lang) {
                 element.textContent = currentTranslations[key];
             } else if (element.tagName === 'TITLE') {
                  // A tag <title> deve ser tratada como um caso especial, se necessário, ou usar a lógica abaixo para elementos comuns
-                 element.textContent = currentTranslations[key];
+                element.textContent = currentTranslations[key];
             } 
             else {
                 // Para a maioria dos elementos (h1, p, a, span)
