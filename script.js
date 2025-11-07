@@ -29,15 +29,14 @@ document.addEventListener('DOMContentLoaded', () => {
             e.preventDefault();
             
             const targetElement = document.querySelector(this.getAttribute('href'));
-            targetElement.scrollIntoView({
-                behavior: 'smooth'
-            });
-            // Melhora a acessibilidade: Adiciona o foco no elemento de destino para leitores de tela
-            targetElement.setAttribute('tabindex', '-1');
-            targetElement.focus();
+        targetElement.scrollIntoView({
+            behavior: 'smooth'
+        });
+        // Melhora a acessibilidade: Adiciona o foco no elemento de destino para leitores de tela
+        targetElement.setAttribute('tabindex', '-1');
+        targetElement.focus();
         });
     });
-
     // *******************************************
     // ** 3. Inicialização e Configuração do ScrollReveal **
     // *******************************************
@@ -67,3 +66,5 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 });
+
+

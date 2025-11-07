@@ -1,5 +1,3 @@
-/* ========================================= */
-
 /* 1. PALETA DE CORES E VARIÁVEIS (DARK MODE) */
 
 /* ========================================= */
@@ -16,9 +14,9 @@
 
     --text-secondary: #c2c2c2;  /* Texto secundário (Cinza claro para descrições) */
 
-    --accent-color: #6c5ce7;    /* Roxo de Destaque (principal nos exemplos) */
+    --accent-color: #328116;    /* Roxo de Destaque (principal nos exemplos) */
 
-    --accent-hover: #8375f0;    /* Roxo de destaque mais claro para hover */
+    --accent-hover: #095f79;    /* Roxo de destaque mais claro para hover */
 
     --border-color: #1a1a1a;    /* Borda e linha divisória suave */
 
@@ -36,6 +34,14 @@
 
 /* ========================================= */
 
+html {
+    
+    scroll-padding-top: 85px; 
+}
+
+* {
+    margin: 0;
+
 * {
 
     margin: 0;
@@ -45,7 +51,6 @@
     box-sizing: border-box;
 
 }
-
 
 
 body {
@@ -450,19 +455,19 @@ nav {
 
 .hero-image {
 
-    flex: 1;
+    flex:0 0 auto;
 
     text-align: center;
 
-    padding: 15px;
+    padding: 10px;
 
     background-color: var(--bg-secondary);
 
-    border-radius: 50%; /* Faz a imagem parecer em um círculo/quadrado arredondado */
+    border-radius: 10%; /* Faz a imagem parecer em um círculo/quadrado arredondado */
 
     border: 3px solid var(--accent-color);
 
-    box-shadow: 0 0 50px var(--accent-color); /* Efeito neon leve */
+    box-shadow: 0 0 30px var(--accent-color); /* Efeito neon leve */
 
     max-width: 400px;
 
@@ -488,7 +493,7 @@ nav {
 
     object-fit: cover;
 
-    border-radius: 50%;
+    border-radius: 9%;
 
 }
 
@@ -1304,7 +1309,6 @@ nav {
 
     }
 
-   
 
     .hero-section {
 
@@ -1372,7 +1376,7 @@ nav {
 
     }
 
-   
+
 
     .about-image-or-text {
 
@@ -1459,3 +1463,6 @@ nav {
     }
 
 }
+
+
+
